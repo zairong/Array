@@ -16,9 +16,9 @@ public class ArrayIdolTeam {
         for (int i = 0 ;i<team.length;i++){
             System.out.println("請輸入你喜歡的藝人團體前"+number+"名 :");
             team[i] = (i+1)+"." + scanner.next();
-        }for (int i = 0 ;i<team.length;i++){
             System.out.print(team[i] +"  ");
         }
+
 
     }
 }
